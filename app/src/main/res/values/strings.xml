@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Volley</string>
+    <string name="nombre">Nombre</string>
+    <string name="profesion">Profesion</string>
+    <string name="txtNombre"></string>
+    <string name="txtProfesion"></string>
+
+    <string name="txtTitulo">Consulta de Usuarios</string>
+</resources>
