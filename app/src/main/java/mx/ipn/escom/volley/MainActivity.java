@@ -20,10 +20,6 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.UnsupportedEncodingException;
-import java.util.HashMap;
-import java.util.Map;
-
 /*
 public class MainActivity extends AppCompatActivity {
 
@@ -40,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     private EditText editTextUserName, editTextProfession;
     private Button buttonRegister;
     private Button buttonConsultar;
+    private Button buttonHorasLibres;
     private ProgressDialog progressDialog;
     RequestQueue request;
     JsonObjectRequest jsonObjectRequest;
@@ -58,6 +55,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
         buttonConsultar = findViewById(R.id.buttonConsultar);
         buttonConsultar.setOnClickListener(this);
+
+        buttonHorasLibres = findViewById(R.id.buttonHorasLibres);
+        buttonHorasLibres.setOnClickListener(this);
 
         progressDialog = new ProgressDialog(this);
     }
@@ -139,6 +139,13 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             //String message = editText.getText().toString();
           //  intent.putExtra(EXTRA_MESSAGE, message);
             startActivity(intent);
+        }else if(view == buttonHorasLibres){
+            Intent intent = new Intent(this, consultaHorasLibres.class);
+            //EditText editText = (EditText) findViewById(R.id.editText);
+            //String message = editText.getText().toString();
+            //  intent.putExtra(EXTRA_MESSAGE, message);
+            startActivity(intent);
         }
+
     }
 }

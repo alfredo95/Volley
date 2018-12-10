@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".consultaUsuariosActivity"></activity>
+        <activity android:name=".consultaUsuariosActivity" />
+        <activity android:name=".consultaHorasLibres"></activity>
     </application>
 
 </manifest>

@@ -4,6 +4,6 @@
     <string name="profesion">Profesion</string>
     <string name="txtNombre"></string>
     <string name="txtProfesion"></string>
-
+    <string name="consultaSalones">Consulta Salones Libres</string>
     <string name="txtTitulo">Consulta de Usuarios</string>
 </resources>
